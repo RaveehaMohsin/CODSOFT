@@ -1,0 +1,31 @@
+.heading{
+ color: aliceblue;
+ font-family:'Times New Roman', Times, serif;
+ font-size: 2.4rem;
+}
+
+
+.buttonnumbers
+{
+    height: 60px;
+    width: 125px;
+    background-color: rgb(159, 78, 159);
+    font-size: 1.5rem;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+}
+
+.buttonnumbers:hover {
+    background-color: rgb(130, 50, 130); 
+    color: white; 
+    
+}
+
+.inputstyle
+{
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-indent: 20px;
+    letter-spacing: 1px;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body style="background-color:rgb(208, 166, 208)">
+        <div>
+            <h1 style="text-align: center;margin-top: 50px;" class="heading">DAILY DIGIT CALCULATOR</h1>
+        </div>     
+        <div style="height: 550px; background-color: rgb(159, 78, 159); width: 550px; margin-left: 460px;margin-top: 40px;border-radius: 2rem; padding: 10px;box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);"> 
+            <div style="height: 550px; background-color: white;  border-radius: 2rem; box-sizing: border-box;padding: 10px;">
+                <div style="position: relative; height: 180px; background-color: rgb(159, 78, 159); padding-top: 20px; border-radius: 2rem; box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3); padding: 10px;">
+                    <div style="position: absolute; top: 10px; right: 25px; height: 45px; width: 150px; background-color: rgba(31, 31, 114, 0.842); border-radius: 0.5rem;">
+                    </div>
+                    <div style="position: absolute; top:70px;">
+                        <input id="screen" type="text" class="inputstyle" style="width: 450px; height: 100px; background-color:rgba(57, 57, 131, 0.842) ; margin-left: 25px;border-radius: 1.5rem;border: 1px; ">
+                    </div>
+                </div>
+                <div style="display: flex ; justify-content: center; align-items: center; margin-top: 15px; ">
+                    <table>                      
+                        <tbody>
+                            <tr>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(7)">7</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(8)">8</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(9)">9</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen('+')">+</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(4)">4</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(5)">5</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(6)">6</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen('-')">-</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(1)">1</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(2)">2</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen(3)">3</button></td>
+                                <td><button class="buttonnumbers" onclick="writingonScreen('*')">*</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="buttonnumbers" style="background-color: rgb(240, 192, 19);" id="button">C</button></td>  
+                                <td><button class="buttonnumbers" onclick="writingonScreen('.')">.</button></td> 
+                                <td><button class="buttonnumbers" onclick="writingonScreen(0)">0</button></td>                               
+                                <td><button class="buttonnumbers" onclick="writingonScreen('/')">/</button></td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                                    
+            </div>
+            <div style="margin-left: 10px;">
+            <button style="width: 510px; height: 50px; background-color: rgb(131, 197, 31); font-size: 1.5rem; " class="buttonnumbers" onclick="calculateall()">=</button></td>  
+            </div>
+            </div>
+        </div>                                     
+        <script src="script.js"></script>
+    </body>
+</html>  
